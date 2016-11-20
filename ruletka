@@ -1,0 +1,19 @@
+<?php
+ 
+$a = Vasya; 
+$b = rand(1, 10);
+ 
+$user1 = array(
+	"name" => $a,
+	"money" => $b,
+);
+if ($b < 5) {
+	echo "хуй";
+    exit();
+}
+elseif ($b > 5) {
+	echo "$a и $b";
+    exit();
+}
+ 
+?>
